@@ -38,3 +38,7 @@ type
 `% mpirun -np 8 ./stngpMPI arg1 … arg33`
 Because the parameters are too much, use the Perl script “exec.pl” in which all the parameters are set.
 `% ./exec.pl`
+
+"neuronXXX.conf" files are configuration files for neuron models.
+The file contains maximal conducance of ion channels.
+"stngpMPI" reads these files and set the conductance parameters.
